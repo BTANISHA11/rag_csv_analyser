@@ -24,7 +24,7 @@ The RAG CSV Analyzer is a Streamlit application that allows users to upload, que
 
 1. **Clone the repository**:
    ```bash
-   git clone <repository-url>
+   git clone <https://github.com/BTANISHA11/rag_csv_analyser>
    cd rag_csv_analyser
    ````
 
