@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+pydantic
+motor
+pandas
+streamlit
+openai
+python-dotenv
