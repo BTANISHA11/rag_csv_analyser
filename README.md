@@ -26,33 +26,32 @@ The RAG CSV Analyzer is a Streamlit application that allows users to upload, que
    ```bash
    git clone <repository-url>
    cd rag_csv_analyser
+   ````
 
    Create a virtual environment (optional but recommended):
-
-BASH
-
+````
 python -m venv venv
+````
 Activate the virtual environment:
 
 For Windows:
-BASH
-
+````
 venv\Scripts\activate
+````
 For macOS/Linux:
-BASH
 
+````
 source venv/bin/activate
+````
 Install the required packages:
-
-BASH
-
+````
 pip install -r requirements.txt
+````
 Running the Application
 To run the Streamlit application, execute the following command:
-
-BASH
-
+````
 streamlit run app.py
+````
 Open your web browser and navigate to http://localhost:8501 to access the application.
 
 Usage Instructions
@@ -66,19 +65,17 @@ Delete Files: Select a file from the dropdown and click "Delete File" to remove 
 Download Modified Data: Select a file and click "Download Modified Data" to save the current DataFrame as a CSV file.
 Example Queries
 To filter rows where the City is "East Leonard":
-PLAINTEXT
-
+````
 City == 'East Leonard'
+````
 To filter rows where the Last Name is not "Baxter":
-PLAINTEXT
-
+````
 Last Name != 'Baxter'
+````
 To filter rows where the Company is "Steele Group" and the City is "Chavezborough":
-PLAINTEXT
-
+````
 Company == 'Steele Group' & City == 'Chavezborough'
-Contributing
-Contributions are welcome! If you have suggestions for improvements or new features, feel free to open an issue or submit a pull request.
+`````
 
 License
 This project is licensed under the MIT License. See the LICENSE file for details.
@@ -96,6 +93,5 @@ Thanks to the Streamlit and Pandas communities for their excellent documentation
 - **Running the Application**: Instructions on how to run the Streamlit app.
 - **Usage Instructions**: Detailed usage instructions for the application.
 - **Example Queries**: Examples of how to query the data.
-- **Contributing**: Information on how to contribute to the project.
 - **License**: Licensing information.
 - **Acknowledgments**: Credits to the communities or resources that helped in the development.
